@@ -1,0 +1,24 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore Dataset Files
+*.nc
+*.nc4
+*.HDF5
+*.h5
+
+# Ignore Data Directories (Keep the folder structure, ignore content)
+data/model/*
+data/satellite_raw/*
+data/satellite_processed/*
+!data/model/.gitkeep
+!data/satellite_raw/.gitkeep
+!data/satellite_processed/.gitkeep
+
+# Ignore Results
+results/*
+!results/.gitkeep
+
+# Ignore System files
+.DS_Store
