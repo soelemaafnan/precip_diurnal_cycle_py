@@ -12,3 +12,8 @@ This tool analyzes the diurnal (daily) cycle of precipitation by comparing Clima
 ```bash
 conda env create -f environment.yml
 conda activate diurnal_cycle
+```
+
+## How to run
+1. Run the satellite_preprocessing.py to process raw satellite data first. Depending on the computing resources, this may take a while.
+2. After completing the preprocessing, run the analyze_cycle.py or analyze_phase.py according to your requirements.
